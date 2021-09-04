@@ -24,7 +24,7 @@ class HomeController extends CI_Controller {
   public function send_message() {
     
   }
-  public function index() {
+  public function index() { 
     redirect(base_url('1/chat/2'));
   }
   public function show($active = 1, $id = 7)
