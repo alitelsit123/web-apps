@@ -1,0 +1,108 @@
+.wrapper .layout-left{
+  background-color: #f8f9fa!important;
+  border-right: thin solid rgb(225, 225, 225);
+  width: 350px;
+  min-height: 100vh;
+}
+.wrapper .layout-middle{
+}
+.wrapper .layout-right{
+  display: none;
+}
+
+
+.bg-default {
+  background-color: #ebebeb;
+}
+.bg-msg {
+  background-color: rgba(196, 196, 255, 0.686);
+}
+.border-thin {
+  border: thin solid rgb(225, 225, 225);
+}
+.shadow-1 {
+  box-shadow: inset;
+}
+.bg-transparent{
+  background: transparent;
+}
+.divider {
+  border-bottom: thin solid rgb(211, 211, 211);
+}
+.banner {
+  background-color: #f8f9fa!important;
+}
+.btn-flat {
+  outline: 0px!important;
+  border:  0px!important;
+  box-shadow: none!important;
+}
+.btn-circle{
+  width: 30px;
+  height: 30px;
+  padding: 3px 0px;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+.inbox-form {
+  bottom: 0;
+  position: absolute;
+  width: calc(100vw - 350px);
+}
+.inbox-form-detail {
+  display: none;
+  position: absolute;
+  width: calc(100vw - 350px);
+}
+.card-box {}
+.card-box .card-box-title {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+.card-box .card-box-text {
+  color: black;
+  font-size: 12px;
+}
+
+.list {}
+.list .list-title {
+  color: rgb(106, 106, 106);
+  font-size: 13px;
+  font-weight: bold;
+}
+.list .list-item-link {
+  cursor: pointer;
+}
+.chat-active{
+  background-color: rgb(211, 211, 211)!important;
+}
+.list .list-item-link:hover {
+  background-color: rgb(211, 211, 211)!important;
+}
+.list .list-text {
+  color: rgb(118, 118, 118);
+  font-size: 13px;
+}
+.list .list-time {
+  font-size: 12px;
+}
+.list-group {
+  border-radius: 0;
+}
+.list-group li {
+  border: none;
+}
+.avatar-sm {
+  width: 24px;
+  height: 24px;
+}
+.avatar-md {
+  width: 36px;
+  height: 36px;
+}
+.avatar-lg {
+  width: 56px;
+  height: 56px;
+}
